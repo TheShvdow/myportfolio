@@ -206,3 +206,6 @@ footer {
 .profile-pic img:hover {
     animation: rotate3d 5s linear infinite;
 }
+.highlight {
+    color: #0322af;
+}
