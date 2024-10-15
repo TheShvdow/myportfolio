@@ -17,3 +17,12 @@ document.querySelectorAll('.skill-card').forEach(card => {
         card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0)';
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var projectCards = document.querySelectorAll('.project-card');
+    projectCards.forEach(function(card) {
+        card.addEventListener('click', function() {
+            window.location.href = this.getAttribute('data-href');
+        });
+    });
+});
