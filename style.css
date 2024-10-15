@@ -211,9 +211,11 @@ footer {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    text-decoration: none;
 }
 
+.download-button a {
+    text-decoration: none;
+}
 
 
 /* Animation 3D pour la photo de profil */
