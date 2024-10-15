@@ -202,7 +202,12 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 /* Animation 3D pour la photo de profil */
 /* @keyframes rotate3d {
