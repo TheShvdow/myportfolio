@@ -217,5 +217,5 @@ footer {
 }
 
 .profile-pic img:hover {
-    animation: rotate3d 5s linear infinite;
+    animation: rotate3d 5s linear alternate;
 }
