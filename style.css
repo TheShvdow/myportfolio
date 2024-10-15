@@ -205,14 +205,11 @@ footer {
 }
 
 /* Animation 3D pour la photo de profil */
-@keyframes rotate3d {
+/* @keyframes rotate3d {
     0% { transform: rotate3d(0, 1, 0, 0deg); }
     100% { transform: rotate3d(0, 1, 0, 360deg); }
 }
 
 .profile-pic img:hover {
     animation: rotate3d 5s linear infinite;
-}
-.highlight {
-    color: #0322af;
-}
+} */
